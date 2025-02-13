@@ -33,12 +33,12 @@ const LegislativeTimeline = ({ stages }) => {
               </div>
               
               {/* Label */}
-              <div className="text-center small fw-medium" style={{ maxWidth: '120px', lineHeight: '1.2' }}>
+              <div className="text-center small fw-medium" style={{ maxWidth: '120px', lineHeight: '1.2', fontSize: '0.65rem' }}>
                 {stage.label}
               </div>
               
               {/* Date */}
-              <div className="text-muted" style={{ fontSize: '0.75rem', lineHeight: '1.2' }}>
+              <div className="text-muted" style={{ fontSize: '0.65rem', lineHeight: '1.2' }}>
                 {stage.date}
               </div>
             </div>
