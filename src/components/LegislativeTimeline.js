@@ -3,8 +3,8 @@ import { Check } from 'lucide-react';
 
 const LegislativeTimeline = ({ stages }) => {
   return (
-    <div className="container py-4">
-      <div className="position-relative">
+    <div className="container py-4 d-flex justify-content-end">
+      <div className="position-relative" style={{ width: '70%' }}>
         {/* Timeline line */}
         <div 
           className="position-absolute" 
@@ -25,7 +25,7 @@ const LegislativeTimeline = ({ stages }) => {
               <div 
                 className={`rounded-circle d-flex align-items-center justify-content-center mb-2 
                   ${stage.completed ? 'bg-primary' : 'bg-secondary bg-opacity-25'}`}
-                style={{ width: '32px', height: '32px', zIndex: 1 }}
+                style={{ width: '26px', height: '26px', zIndex: 1 }}
               >
                 {stage.completed && (
                   <Check className="text-white" style={{ width: '20px', height: '20px' }} />

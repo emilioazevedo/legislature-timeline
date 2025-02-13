@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <div className="container mt-5">
-        <h1 className="mb-4">Legislative Timeline</h1>
         <ExampleTimeline />
       </div>
     </div>
